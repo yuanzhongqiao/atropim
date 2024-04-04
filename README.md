@@ -1,101 +1,83 @@
-![Logo](_assets/atropim-logo.svg)
-
-## What Is AtroPIM?
-
-![anne](_assets/atropim-banner.png)
-
-AtroPIM is an [open-source product information management system (PIM)](https://atropim.com), which is based on [AtroCore](https://github.com/atrocore/atrocore) software platform. AtroPIM (as well as AtroCore) is distributed under GPLv3 License and is free. It has a lot of features right out-of-the-box and thus is an excellent tool for cost-effective and timely application development.
-
-AtroPIM is a single page application (SPA) with an API-centric architecture. It has a flexible data model based on entities, entity attributes and relations of all kinds among them. AtroPIM allows you to gather and store all your product content in one place, enrich it and spread it to several channels like own online shop, amazon, eBay, online shops of your distributors, on a tablet or mobile application. AtroPIM will help you to structure and organize all your flexible data and get rid of excel mess. 
-
-## What Are the Advantages of AtroPIM?
-
-- Many out-of-the-box features;
-- Free – 100% open source, licensed under GPLv3;
-- REST API;
-- Responsive and user friendly UI;
-- Configurable (entities, relations, layouts, labels, navigation, dashboards);
-- Extensible with modules;
-- Includes the advantages of [AtroCore](https://github.com/atrocore/atrocore).
-
-## How Does It Work?
-
-AtroPIM is an effective solution for storing, processing and managing your product information. All product data are extracted from different sources, classified, translated and enriched. AtroPIM helps you publish the relevant data on different sales channels with minimum efforts. 
-
-![unctions_banne](_assets/how_it_works_scheme__en.png)
-
-## Features
-
-AtroPIM comes with a lot of features directly out of the box, including:
-
-- associations;
-- measuring units;
-- channels;
-- catalogs;
-- category trees and categories;
-- classifications;
-- product series;
-- products;
-- attribute groups and attributes;
-- product and category images;  
-- and much more.
-
-Want to know more about AtroPIM functions and its advantages for you? Please, visit [our website](http://atropim.com).
-
-## Technology
-
-AtroPIM is based on EspoCRM and uses PHP7, backbone.js, composer and some Zend Framework 3 libraries.
-
-![image](https://github.com/atrocore/atropim/assets/33658481/d6fa31af-54fe-48a8-80bb-f8d05572b765)
-
-Want to know more about AtroPIM technology? Please, visit [our website](http://atropim.com/technology)!
-
-## Integrations
-
-AtroPIM has a REST API and can be integrated with any third-party system, channel or marketplace. 
-
-We offer the following paid integrations:
-
-- Data synchronisation with over 2000 Channels via channable.com
-- ODOO
-- SAP Business One,
-- Microsoft Business Central
-- Magento 2
-- Magento 1
-- Shopware 6
-- Shopify
-- and others.
-
-Please [contact us](https://atropim.com/contact), if you want to know more.
-
-
-### Requirements
-
-* Dedicated (virtual) Linux-based server with root permissions. 
-* Ubuntu as Operating System is recommended but not required.
-* PHP 7.4 (or above).
-* MySQL 5.5.3 (or above) or PostgreSQL 14.9 (or above).
-
-> Please note, system will definitely NOT work on a usual hosting, a managed server hosting should be checked on a case-by-case basis – with a high probability it will NOT work.
-
-### Installation
-
-Installation Guide is available [here](https://help.atrocore.com/installation-and-maintenance/installation).
-
-### Demo
-- URL: https://demo.atropim.com/
-- Login: admin
-- Password: admin
-     
-## License
-
-AtroPIM is published under the GNU GPLv3 [license](LICENSE.txt).
-
-## Ressources
-
-- Explanatory Videos - https://www.youtube.com/channel/UCUwliSmn5XC0CMKcI_W46Hg/videos
-- Report a Bug - https://github.com/atrocore/atrocore/issues/new
-- Please visit our Help Center - https://help.atrocore.com/
-- Read our Release Notes - https://help.atrocore.com/release-notes/pim
-- Please visit our Community - https://community.atrocore.com
-- Сontact us - https://atrocore.com/contact
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/atrocore/atropim/blob/master/_assets/atropim-logo.svg"><img src="/atrocore/atropim/raw/master/_assets/atropim-logo.svg" alt="标识" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是 AtroPIM？</font></font></h2><a id="user-content-what-is-atropim" class="anchor" aria-label="永久链接：什么是 AtroPIM？" href="#what-is-atropim"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/atrocore/atropim/blob/master/_assets/atropim-banner.png"><img src="/atrocore/atropim/raw/master/_assets/atropim-banner.png" alt="安妮" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AtroPIM是一个</font></font><a href="https://atropim.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源的产品信息管理系统（PIM）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它基于</font></font><a href="https://github.com/atrocore/atrocore"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AtroCore</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件平台。 AtroPIM（以及 AtroCore）根据 GPLv3 许可证分发并且免费。它具有许多开箱即用的功能，因此是经济高效且及时的应用程序开发的绝佳工具。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AtroPIM 是一个单页应用程序 (SPA)，具有以 API 为中心的架构。它具有基于实体、实体属性以及它们之间的各种关系的灵活的数据模型。 AtroPIM 允许您在平板电脑或移动应用程序上将所有产品内容收集和存储在一个地方，丰富其内容并将其传播到多个渠道，例如自己的在线商店、亚马逊、eBay、经销商的在线商店。 AtroPIM 将帮助您构建和组织所有灵活的数据并摆脱 Excel 混乱。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AtroPIM 的优势是什么？</font></font></h2><a id="user-content-what-are-the-advantages-of-atropim" class="anchor" aria-label="永久链接：AtroPIM 的优势是什么？" href="#what-are-the-advantages-of-atropim"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许多开箱即用的功能；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费 – 100% 开源，根据 GPLv3 许可；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">休息 API；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">响应灵敏且用户友好的用户界面；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可配置（实体、关系、布局、标签、导航、仪表板）；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可通过模块进行扩展；</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://github.com/atrocore/atrocore"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包括AtroCore</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的优点</font><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是如何工作的？</font></font></h2><a id="user-content-how-does-it-work" class="anchor" aria-label="永久链接：它是如何工作的？" href="#how-does-it-work"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AtroPIM 是存储、处理和管理产品信息的有效解决方案。所有产品数据均从不同来源提取、分类、翻译和丰富。 AtroPIM帮助您以最小的努力在不同的销售渠道上发布相关数据。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/atrocore/atropim/blob/master/_assets/how_it_works_scheme__en.png"><img src="/atrocore/atropim/raw/master/_assets/how_it_works_scheme__en.png" alt="功能_banne" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2><a id="user-content-features" class="anchor" aria-label="永久链接：特点" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AtroPIM 具有许多开箱即用的功能，包括：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">协会；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测量单位；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渠道；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类别树和类别；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分类；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产品系列；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产品;</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性组和属性；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产品和类别图片；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及更多。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想了解更多关于 AtroPIM 的功能及其为您带来的优势吗？请访问</font></font><a href="http://atropim.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></h2><a id="user-content-technology" class="anchor" aria-label="永久链接：技术" href="#technology"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AtroPIM 基于 EspoCRM，并使用 PHP7、backbone.js、composer 和一些 Zend Framework 3 库。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/33658481/313447072-d6fa31af-54fe-48a8-80bb-f8d05572b765.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIyNDE2NzksIm5iZiI6MTcxMjI0MTM3OSwicGF0aCI6Ii8zMzY1ODQ4MS8zMTM0NDcwNzItZDZmYTMxYWYtNTRmZS00OGE4LTgwYmItZjhkMDU1NzJiNzY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA0VDE0MzYxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY0OGQwZDA1ZTk3ZjdkZjc0NTcyMTI3M2MwMGZjZjMzZjAzOTFlZjVkZjAzYWUxOTNjNThlNDE1YTAxMzAyNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.TpEU8F1PaFM50BV0zW10ux640WgueXEeB-X5kda41Uk"><img src="https://private-user-images.githubusercontent.com/33658481/313447072-d6fa31af-54fe-48a8-80bb-f8d05572b765.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIyNDE2NzksIm5iZiI6MTcxMjI0MTM3OSwicGF0aCI6Ii8zMzY1ODQ4MS8zMTM0NDcwNzItZDZmYTMxYWYtNTRmZS00OGE4LTgwYmItZjhkMDU1NzJiNzY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA0VDE0MzYxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY0OGQwZDA1ZTk3ZjdkZjc0NTcyMTI3M2MwMGZjZjMzZjAzOTFlZjVkZjAzYWUxOTNjNThlNDE1YTAxMzAyNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.TpEU8F1PaFM50BV0zW10ux640WgueXEeB-X5kda41Uk" alt="图像" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想了解更多有关 AtroPIM 技术的信息吗？请访问</font></font><a href="http://atropim.com/technology" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成</font></font></h2><a id="user-content-integrations" class="anchor" aria-label="永久链接：集成" href="#integrations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AtroPIM 具有 REST API，可以与任何第三方系统、渠道或市场集成。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们提供以下付费集成：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过 channable.com 与 2000 多个频道进行数据同步</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">奥多</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SAP 业务一号，</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微软商务中心</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">马真托2</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">马真托1</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商店用品 6</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">购物</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和别的。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想了解更多信息，</font><font style="vertical-align: inherit;">请</font></font><a href="https://atropim.com/contact" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系我们。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求</font></font></h3><a id="user-content-requirements" class="anchor" aria-label="永久链接：要求" href="#requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有 root 权限的基于 Linux 的专用（虚拟）服务器。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议使用 Ubuntu 作为操作系统，但不是必需的。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP 7.4（或更高版本）。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MySQL 5.5.3（或更高版本）或 PostgreSQL 14.9（或更高版本）。</font></font></li>
+</ul>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，系统肯定无法在普通托管上运行，应根据具体情况检查托管服务器托管 - 很可能无法运行。</font></font></p>
+</blockquote>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h3><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装指南可</font></font><a href="https://help.atrocore.com/installation-and-maintenance/installation" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></h3><a id="user-content-demo" class="anchor" aria-label="永久链接：演示" href="#demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网址：</font></font><a href="https://demo.atropim.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://demo.atropim.com/</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">登录：管理员</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密码： 管理员</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AtroPIM 是根据 GNU GPLv3</font></font><a href="/atrocore/atropim/blob/master/LICENSE.txt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布的。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></h2><a id="user-content-ressources" class="anchor" aria-label="永久链接：资源" href="#ressources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说明视频 - </font></font><a href="https://www.youtube.com/channel/UCUwliSmn5XC0CMKcI_W46Hg/videos" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.youtube.com/channel/UCUwliSmn5XC0CMKcI_W46Hg/videos</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告错误 - </font></font><a href="https://github.com/atrocore/atrocore/issues/new"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/atrocore/atrocore/issues/new</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请访问我们的帮助中心 - </font></font><a href="https://help.atrocore.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://help.atrocore.com/</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读我们的发行说明 - </font></font><a href="https://help.atrocore.com/release-notes/pim" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://help.atrocore.com/release-notes/pim</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请访问我们的社区 - </font></font><a href="https://community.atrocore.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://community.atrocore.com</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系我们 - </font></font><a href="https://atrocore.com/contact" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://atrocore.com/contact</font></font></a></li>
+</ul>
+</article></div>
